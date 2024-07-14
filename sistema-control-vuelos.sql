@@ -1,7 +1,7 @@
 CREATE TABLE aeropuestos {
     aeropuerto_ID INT AUTOINCREMENT NOT NULL,
     codigo VARCHAR NOT NULL UNIQUE,
-    nombre VARCHAR NOT NULL UNIQUE,
+    nombre VARCHAR NOT NULL,
     ciudad VARCHAR NOT NULL,
     pais VARCHAR NOT NULL,
     PRIMARY KEY (aeropuerto_ID),
