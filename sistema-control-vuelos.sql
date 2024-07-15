@@ -83,3 +83,4 @@ ALTER TABLE programas_de_vuelos
 ADD FOREIGN KEY (vuelo_ID) REFERENCES vuelos(vuelo_ID);
 ALTER TABLE programas_de_vuelos    
 ADD FOREIGN KEY (escala_tecnica_ID) REFERENCES escalas_tecnicas(escala_tecnica_ID);
+
